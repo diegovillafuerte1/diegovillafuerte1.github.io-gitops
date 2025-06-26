@@ -8,7 +8,7 @@ spec:
 
   source:
     repoURL: https://github.com/diegovillafuerte1/diegovillafuerte1.github.io-gitops
-    targetRevision: master
+    targetRevision: main
     path: apps/guestbook/dev
 
   destination:

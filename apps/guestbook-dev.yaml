@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/diegovillafuerte1/diegovillafuerte1.github.io
+    repoURL: https://github.com/diegovillafuerte1/diegovillafuerte1.github.io-gitops
     targetRevision: master
-    path: guestbook/dev
+    path: apps/guestbook/dev
 
   destination:
     server: https://kubernetes.default.svc
@@ -19,5 +19,4 @@ spec:
     automated:
       prune: true
       selfHeal: true
-    syncOptions:
 

@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: guestbook
-  image: diegovillafuertehcl/static-site:sha-25
+  image: diegovillafuertehcl/static-site:sha-26
           ports:
             - containerPort: 80
